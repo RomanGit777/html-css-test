@@ -44,3 +44,10 @@ header nav ul button{
     border-radius: 4px;
     background: #6246EA;
 }
+/*------------------section-about-Dasteen-------------*/
+.about-Dasteen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 164px;
+}
