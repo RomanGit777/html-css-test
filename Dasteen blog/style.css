@@ -23,3 +23,9 @@ header nav ul{
     align-items: center;
     gap: 50px;
 }
+header nav ul a{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
