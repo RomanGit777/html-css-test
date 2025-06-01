@@ -51,3 +51,50 @@ header nav ul button{
     align-items: center;
     margin-top: 164px;
 }
+.about-Dasteen h1{
+    width: 617px;
+    color: #2B2C34;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.about-Dasteen div:nth-child(2){
+    display: flex;
+    gap: 12px;
+    margin: 30px 0 30px 0;
+}
+.about-Dasteen p{
+    width: 652px;
+    color: #9A9494;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-Dasteen form{
+    display: flex;
+    gap: 20px;
+}
+.about-Dasteen form input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color:  #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.about-Dasteen form button{
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: var(--White, #FFFFFE);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
