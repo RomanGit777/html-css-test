@@ -177,4 +177,6 @@ header nav ul button{
 .section-categories_w-1250 .card div{
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    padding: 65px 130px 95px 30px;
 }
