@@ -168,3 +168,13 @@ header nav ul button{
     border-radius: 8px;
     background: #FFFFFE;
 }
+.section-categories_w-1250 .card p{
+    color:  #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-categories_w-1250 .card div{
+    display: flex;
+    flex-direction: column;
+}
