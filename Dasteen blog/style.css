@@ -156,10 +156,6 @@ header nav ul button{
     margin-top: 8px;
 }
 .section-categories_w-1250 .cards{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap:  37px;
     margin-top: 50px;
 }
 .section-categories_w-1250 .card{
@@ -173,10 +169,19 @@ header nav ul button{
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
+    padding-bottom: 95px;
 }
 .section-categories_w-1250 .card div{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    width: 220px;
+    height: 280px;
     gap: 30px;
-    padding: 65px 130px 95px 30px;
+    /*margin: 65px 130px 95px 30px;*/
+}
+.section-categories_w-1250 .card div:nth-child(2){
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #FFFFFE;
 }
