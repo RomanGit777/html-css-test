@@ -14,11 +14,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-color: #f0f0f0;*/
+    background-color: #f0f0f0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
     position: fixed;
     top: 0;
-    z-index: 1100;
 }
 header nav{
     display: flex;
@@ -115,4 +114,44 @@ header nav ul button{
     font-weight: 700;
     text-transform: capitalize;
 }
-/*------------*/
+/*------------section-categories------------------*/
+.categories{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-categories_w-1250{
+    width: 1250px;
+    height: 100%;
+
+}
+.section-categories_w-1250 div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-categories_w-1250 div:nth-child(1) h4{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-categories_w-1250 div:nth-child(1) h5{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-categories_w-1250 div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.section-categories_w-1250 div:nth-child(2) svg{
+    margin-top: 8px;
+}
