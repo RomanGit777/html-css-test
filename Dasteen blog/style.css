@@ -155,3 +155,16 @@ header nav ul button{
 .section-categories_w-1250 div:nth-child(2) svg{
     margin-top: 8px;
 }
+.section-categories_w-1250 .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:  37px;
+    margin-top: 50px;
+}
+.section-categories_w-1250 .card{
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    background: #FFFFFE;
+}
