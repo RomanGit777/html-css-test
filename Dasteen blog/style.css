@@ -179,7 +179,21 @@ header nav ul button{
     text-transform: capitalize;
 }
 .section-categories_w-1250 .card svg{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #FFFFFE;
 }
-
+.section-categories_w-1250 .card:hover{
+    background: Blue;
+    /*color: #FFFFFE;*/
+    /*font-size: 24px;*/
+    /*font-weight: 700;*/
+    /*text-transform: capitalize;*/
+}
+.section-categories_w-1250 .card p:hover{
+    /*color: #FFFFFE;*/
+    /*font-size: 24px;*/
+    /*font-weight: 700;*/
+    /*text-transform: capitalize;*/
+}
