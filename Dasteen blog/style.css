@@ -317,6 +317,7 @@ header nav ul button{
 .section-css-article .section-css-article_w-1250{
     width: 1250px;
     height: 100%;
+    margin-bottom: 80px;
 }
 .section-css-article .section-css-article_content{
     display: flex;
@@ -399,6 +400,110 @@ header nav ul button{
     font-weight: 600;
 }
 .section-css-article_w-1250 .card .name-date p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/*-------------------------section-js-article----------------------*/
+.section-js-article{
+    display: flex;
+    width: 1252px;
+    height: 490px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.section-js-article .section-js-article_w-1250{
+    width: 1250px;
+    height: 100%;
+    margin: 80px 0;
+}
+.section-js-article .section-js-article_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0 30px 0;
+}
+.section-js-article .section-js-article_content h4{
+    color: #2B2C34;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-js-article .section-js-article_content h5{
+    color: #2B2C34;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-js-article .swing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.section-js-article  div .arrow{
+    margin-top: 6px;
+}
+.section-js-article_w-1250 .cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.section-js-article_w-1250 .card{
+    width: 300px;
+    height: 425px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #FFFFFE;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+}
+.section-js-article_w-1250 .card div:nth-child(1) h4{
+    width: 260px;
+    color: #0D0D0D;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-js-article_w-1250 .cards div:nth-child(1) div:nth-child(1) h4{
+    margin: 25px 0 55px 0;
+}
+.section-js-article_w-1250 .cards div:nth-child(2) div:nth-child(1) h4{
+    margin: 25px 0 80px 0;
+}
+.section-js-article_w-1250 .cards div:nth-child(3) div:nth-child(1) h4{
+    margin: 25px 0 30px 0;
+}
+.section-js-article_w-1250 .cards div:nth-child(4) div:nth-child(1) h4{
+    margin: 25px 0 55px 0;
+}
+.section-js-article_w-1250 .card div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.section-js-article_w-1250 .card .name-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.2px;
+    margin-left: 15px;
+}
+.section-js-article_w-1250 .card .name-date h5{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-js-article_w-1250 .card .name-date p{
     width: 184px;
     height: 21px;
     color: #2B2C34;
