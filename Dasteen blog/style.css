@@ -172,6 +172,7 @@ header nav ul button{
     flex-direction: column;
     gap: 30px;
     padding-left: 30px;
+    transition: 1s;
 }
 .section-categories_w-1250 .card p{
     color: #2B2C34;
@@ -179,24 +180,25 @@ header nav ul button{
     font-weight: 700;
     text-transform: capitalize;
 }
-.section-categories_w-1250 .card svg{
+.section-categories_w-1250 .card div:nth-child(1){
     width: 60px;
     height: 60px;
     border-radius: 7.458px;
     background: #FFFFFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .section-categories_w-1250 .card:hover{
     background: Blue;
-    /*color: #FFFFFE;*/
-    /*font-size: 24px;*/
-    /*font-weight: 700;*/
-    /*text-transform: capitalize;*/
+    color: #FFFFFE;
+    transition: 2s;
 }
-.section-categories_w-1250 .card p:hover{
-    /*color: #FFFFFE;*/
-    /*font-size: 24px;*/
-    /*font-weight: 700;*/
-    /*text-transform: capitalize;*/
+.section-categories_w-1250 .card:hover p {
+    color: #FFFFFE;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 /*------------------section-featured-article---------------------------------*/
 .section-featured-article{
