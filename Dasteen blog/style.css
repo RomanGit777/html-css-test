@@ -614,21 +614,92 @@ header nav ul button{
 /*-------button-------*/
 .button-bottom_w-1250{
     display: flex;
-    width: 1252px;
-    height: 490px;
+    width: 1250px;
+    height: 100%;
+    padding: 80px 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
     margin: 0 auto;
 }
-.button-bottom_w-1250{
-    width: 1250px;
-    height: 100%;
-    padding-top: 80px;
-}
 main button{
     display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*!*-------------------section-subscribe-----------*-/*/
+.section-subscribe{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*gap: 30px;*/
+    margin: 0 auto;
+    background: #EFF0F3;
+}
+.section-subscribe_content_w-1250{
+    width: 1250px;
+    height: 100%;
+    padding-top: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-subscribe_content_w-1250 div{
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-subscribe_content_w-1250 h2{
+    color: #2B2C34;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 30px 0 10px 0;
+}
+.section-subscribe_content_w-1250 p{
+    width: 696px;
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.section-subscribe_content_w-1250 form{
+    display: flex;
+    gap: 20px;
+}
+.section-subscribe_content_w-1250 form input{
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFE;
+    border: none;
+    color: #C0C0C0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.section-subscribe_content_w-1250 form button{
+    display: flex;
+    height: 67px;
     padding: 20px 23px 19px 23px;
     justify-content: center;
     align-items: center;
