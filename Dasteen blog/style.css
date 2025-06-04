@@ -248,6 +248,7 @@ header nav ul button{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin-bottom: 80px;
 }
 .section-featured-article_w-1250 .card{
     width: 300px;
@@ -259,12 +260,16 @@ header nav ul button{
 }
 .section-featured-article_w-1250 .card div:nth-child(1) h4{
     margin: 25px 0 80px 0;
+    width: 260px;
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 .section-featured-article_w-1250 .card div:nth-child(2){
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /*gap: 15px;*/
 }
 .section-featured-article_w-1250 .card .name-date{
     display: flex;
@@ -273,4 +278,21 @@ header nav ul button{
     gap: 4.2px;
     margin-left: 15px;
 }
-
+.section-featured-article_w-1250 .card .name-date h5{
+    width: 73px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 16px;
+    font-weight: 600;
+}
+.section-featured-article_w-1250 .card .name-date p{
+    width: 184px;
+    height: 21px;
+    color: #2B2C34;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.section-featured-article_w-1250 .card div:nth-child(1) h4{
+    margin-bottom: 55px;
+}
