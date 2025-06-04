@@ -208,6 +208,7 @@ header nav ul button{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFE;
+
 }
 .section-featured-article_w-1250{
     width: 1250px;
@@ -218,6 +219,7 @@ header nav ul button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 80px 0
 }
 .section-featured-article_content h4{
     color:  #2B2C34;
@@ -231,4 +233,13 @@ header nav ul button{
     font-size: 20px;
     font-weight: 700;
     text-transform: capitalize;
+}
+.section-featured-article_content .swing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.section-featured-article_content div .arrow{
+    margin-top: 8px;
 }
