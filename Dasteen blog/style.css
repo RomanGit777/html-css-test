@@ -683,6 +683,7 @@ main button{
 .section-subscribe_content_w-1250 form{
     display: flex;
     gap: 20px;
+    padding-bottom: 58px;
 }
 .section-subscribe_content_w-1250 form input{
     display: flex;
@@ -716,4 +717,45 @@ footer{
     height: 435px;
     margin: 0 auto;
     background: #E4E5E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 1250px;
+    height: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content p{
+    color: #2B2C34;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer-content h3{
+    color: #2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer-content div:nth-child(1){
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-content .social-icons{
+    display: flex;
+    gap: 30px;
+}
+.footer-content div:nth-child(2){
+    margin-right: 95px;
+}
+.footer-content div:nth-child(3){
+    margin-right: 95px;
+}
+.footer-content div:nth-child(4){
+    margin-right: 95px;
 }
