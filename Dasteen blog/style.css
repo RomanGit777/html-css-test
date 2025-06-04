@@ -208,7 +208,6 @@ header nav ul button{
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFE;
-
 }
 .section-featured-article_w-1250{
     width: 1250px;
@@ -248,7 +247,6 @@ header nav ul button{
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin-bottom: 80px;
 }
 .section-featured-article_w-1250 .card{
     width: 300px;
@@ -259,7 +257,6 @@ header nav ul button{
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
 }
 .section-featured-article_w-1250 .card div:nth-child(1) h4{
-    margin: 25px 0 80px 0;
     width: 260px;
     color: #2B2C34;
     font-size: 20px;
@@ -293,6 +290,15 @@ header nav ul button{
     font-weight: 400;
     text-transform: capitalize;
 }
-.section-featured-article_w-1250 .card div:nth-child(1) h4{
-    margin-bottom: 55px;
+.section-featured-article_w-1250 .cards div:nth-child(1) div:nth-child(1) h4{
+    margin: 25px 0 80px 0;
+}
+.section-featured-article_w-1250 .cards div:nth-child(2) div:nth-child(1) h4{
+    margin: 25px 0 55px 0;
+}
+.section-featured-article_w-1250 .cards div:nth-child(3) div:nth-child(1) h4{
+    margin: 25px 0 30px 0;
+}
+.section-featured-article_w-1250 .cards div:nth-child(4) div:nth-child(1) h4{
+    margin: 25px 0 55px 0;
 }
