@@ -53,7 +53,7 @@ header nav ul button{
 }
 /*------------------section-about-Dasteen-------------*/
 .about-Dasteen{
-    height: 100%;
+    height: 900px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +61,7 @@ header nav ul button{
 }
 .section-about_w-1250{
     width: 1250px;
-    height: 900px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -121,12 +121,12 @@ header nav ul button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     background: #EFF0F3;
 }
 .section-categories_w-1250{
     width: 1250px;
     height: 100%;
+    margin: 0 auto;
 }
 .section-categories_w-1250 .category{
     display: flex;
@@ -309,17 +309,17 @@ header nav ul button{
 /*-------------------section-css-article--------------------*/
 .section-css-article{
     display: flex;
-    width: 1252px;
+    width: 100%;
     height: 490px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
 }
 .section-css-article .section-css-article_w-1250{
     width: 1250px;
     height: 100%;
+    margin: 0 auto;
 }
 .section-css-article .section-css-article_content{
     display: flex;
@@ -414,17 +414,17 @@ header nav ul button{
 /*-------------------------section-js-article----------------------*/
 .section-js-article{
     display: flex;
-    width: 1252px;
+    width: 100%;
     height: 490px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
 }
 .section-js-article .section-js-article_w-1250{
     width: 1250px;
     height: 100%;
+    margin: 0 auto;
 }
 .section-js-article .section-js-article_content{
     display: flex;
@@ -519,17 +519,17 @@ header nav ul button{
 /*-------------------------section-react-article----------------------*/
 .section-react-article{
     display: flex;
-    width: 1252px;
+    width: 100%;
     height: 490px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
 }
 .section-react-article .section-react-article_w-1250{
     width: 1250px;
     height: 100%;
+    margin: 0 auto;
 }
 .section-react-article .section-react-article_content{
     display: flex;
@@ -630,10 +630,9 @@ header nav ul button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     margin: 0 auto;
 }
-main button{
+.button-bottom_w-1250 button{
     display: flex;
     padding: 20px 23px 19px 23px;
     justify-content: center;
@@ -650,11 +649,10 @@ main button{
 .section-subscribe{
     display: flex;
     width: 100%;
-    height: 490px;
+    height: 453px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     background: #EFF0F3;
 }
 .section-subscribe_content_w-1250{
@@ -665,6 +663,7 @@ main button{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 auto;
 }
 .section-subscribe_content_w-1250 div{
     width: 130px;
@@ -724,7 +723,6 @@ main button{
 /*--------------footer-------------------*/
 footer{
     width: 100%;
-    margin: 0 auto;
     background: #E4E5E9;
     display: flex;
     flex-direction: column;
@@ -736,6 +734,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin: 0 auto;
 }
 .footer-content .footer-links a{
     color: #2B2C34;
@@ -759,6 +758,10 @@ footer{
     flex-direction: column;
     gap: 20px;
     width: 400px;
+}
+.footer-content div:nth-child(1) .logo-bottom{
+    width: 195px;
+    height: 45px;
 }
 .footer-content div:nth-child(1) p{
     width: 284px;
